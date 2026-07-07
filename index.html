@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#020807">
+  <meta name="theme-color" content="#171717">
   <meta name="description" content="KeepFlip helps you evaluate, prepare, and list the things you own for resale.">
   <title>KeepFlip — Flip smarter. Profit more.</title>
   <link rel="stylesheet" href="styles.css">
@@ -27,10 +27,10 @@
 <main>
   <section class="container hero">
     <div>
-      <div class="eyebrow">AI-powered resale intelligence</div>
+      <div class="eyebrow">KeepFlip command</div>
       <h1>Flip smarter.<br><span class="highlight">Profit more.</span></h1>
       <p class="hero-copy">
-        KeepFlip helps you understand what your items can earn, decide whether a repair is worth it, and create a clearer listing when it is time to sell.
+        Find the next best move for your items with a sharper resale signal.
       </p>
       <div class="hero-actions">
         <a class="button primary" href="mailto:support@keep-flip.com?subject=KeepFlip%20early%20access">Contact KeepFlip</a>
@@ -40,20 +40,25 @@
 
     <aside class="dashboard-card" aria-label="Example KeepFlip profit dashboard">
       <div class="dashboard-top">
-        <span>Estimated profit</span>
+        <span>Portfolio signal</span>
         <span class="badge">Analysis ready</span>
       </div>
-      <div class="profit-label">Your resale opportunity</div>
+      <div class="profit-label">Estimated resale value</div>
       <div class="profit-number">$1,245</div>
-      <div class="profit-change">↗ +18.6% potential value this month</div>
-      <svg class="sparkline" viewBox="0 0 420 80" preserveAspectRatio="none" aria-hidden="true">
+      <div class="profit-change">17 items ready to list</div>
+      <svg class="sparkline" viewBox="0 0 420 116" preserveAspectRatio="none" aria-hidden="true">
         <defs>
-          <linearGradient id="lineGlow" x1="0" x2="1">
-            <stop stop-color="#38FF92" stop-opacity=".72"/>
-            <stop offset="1" stop-color="#8AF2FF"/>
+          <linearGradient id="barGlow" x1="0" x2="1">
+            <stop stop-color="#38FF92" stop-opacity=".56"/>
+            <stop offset="1" stop-color="#76FFAD"/>
           </linearGradient>
         </defs>
-        <path d="M0 68 L36 55 L72 61 L108 37 L144 47 L180 28 L216 43 L252 31 L288 48 L324 24 L360 31 L396 8 L420 17" fill="none" stroke="url(#lineGlow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0 28H420M0 58H420M0 88H420" fill="none" stroke="rgba(194, 210, 201, .18)" stroke-width="1"/>
+        <rect x="16" y="92" width="54" height="10" rx="5" fill="rgba(147, 236, 255, .22)"/>
+        <rect x="84" y="84" width="64" height="18" rx="7" fill="rgba(147, 236, 255, .22)"/>
+        <rect x="160" y="88" width="58" height="14" rx="7" fill="rgba(147, 236, 255, .22)"/>
+        <rect x="238" y="70" width="62" height="32" rx="8" fill="rgba(147, 236, 255, .22)"/>
+        <rect x="318" y="52" width="78" height="50" rx="8" fill="url(#barGlow)"/>
       </svg>
       <div class="dashboard-row">
         <div class="dashboard-stat"><strong>17</strong><span>Ready to sell</span></div>
@@ -65,23 +70,28 @@
 
   <section class="section">
     <div class="container">
-      <div class="eyebrow">Designed for action</div>
-      <h2 class="section-title">Turn more of what you own into a better resale decision.</h2>
+      <div class="eyebrow">Quick actions</div>
+      <h2 class="section-title">Scan, price, prepare, and list from the same command center.</h2>
       <div class="feature-grid">
         <article class="feature-card">
+          <div class="feature-icon">⌗</div>
+          <h3>Scan item</h3>
+          <p>Start with photos or a barcode and turn the object into an organized resale asset.</p>
+        </article>
+        <article class="feature-card">
           <div class="feature-icon">↗</div>
-          <h3>Profit analysis</h3>
-          <p>Understand the upside of selling as-is, improving an item, or researching a repair before you spend money.</p>
+          <h3>Profit check</h3>
+          <p>Compare sold comps, repair notes, fees, and projected upside before you spend time.</p>
         </article>
         <article class="feature-card">
-          <div class="feature-icon">$</div>
-          <h3>Listing prep</h3>
-          <p>Create searchable titles, accurate condition language, pricing guidance, and platform-ready listing copy.</p>
+          <div class="feature-icon">◇</div>
+          <h3>Build listing</h3>
+          <p>Create clearer titles, condition language, pricing guidance, and platform-ready copy.</p>
         </article>
         <article class="feature-card">
-          <div class="feature-icon">◌</div>
-          <h3>Honest selling</h3>
-          <p>KeepFlip is built around transparent condition disclosures so buyers know exactly what they are getting.</p>
+          <div class="feature-icon">+</div>
+          <h3>Add item</h3>
+          <p>Keep the resale pipeline moving with a queue built for repeated action.</p>
         </article>
       </div>
     </div>
