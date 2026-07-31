@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.keepflip.app",
+      "sha256_cert_fingerprints": [
+        "68:C2:15:91:CC:D2:F3:D8:0F:56:AB:1F:22:74:47:8A:88:0F:22:41:D0:AA:71:C2:5A:25:A5:FC:67:82:66:55"
+      ]
+    }
+  }
+]
